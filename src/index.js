@@ -9,6 +9,7 @@ app.use(express.json());
 // Put your implementation here
 // If necessary to add imports, please do so in the section above
 
+// Users Array (holds information)
 let users = [];
 
 app.get('/', (req, res) => {
